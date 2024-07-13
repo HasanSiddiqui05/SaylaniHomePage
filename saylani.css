@@ -1,0 +1,768 @@
+*{
+    margin-top: 0px;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+
+.nav-bar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 5;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.logo-img{
+    width: 200px;
+    height: 54px;
+}
+
+.nav-section{
+    display: flex;
+    align-items: baseline;
+}
+
+.b1{
+    background-color: rgb(13, 109, 183);
+    margin-right: 10px;
+}
+
+nav button{
+    font-size: 12px;
+    padding: 10px 30px;
+    height: 40px;
+    width: 145px;
+    gap: 10px;
+    transition: transform(0.15s);
+}
+
+nav button:hover{
+    transform: scale(1.1);
+}
+
+nav ul{
+    display: flex;
+    justify-content: end;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 10px;
+}
+
+nav li a{
+    padding: 8px;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    transform: text-decoration(0.15s);
+}
+
+nav li a:hover{
+    text-decoration: underline;
+}
+
+.main-section{
+    display: flex;
+}
+
+.main-heading{
+    font-size: 30px;
+    font-weight: 700;
+    width: 320px;
+}
+
+.green-heading{
+    color: rgb(141, 198, 63);
+}
+
+.blue-text{
+    color: rgb(13, 109, 183);
+}
+
+.main-text h3{
+    margin: 0px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.details{
+    font-size: 16px;
+    width: 760px;
+}
+
+.main-text button{
+    color: black;
+    width: 160px;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.main-banner{
+    margin-top: 80px;
+    width: 700px;
+    height: 560px;
+}
+
+.main-banner-img{
+    width: 100%;
+    height: 94%;
+    object-fit: contain;
+}
+
+.main-text{
+    width: 800px;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.donation-section{
+    background-color: rgba(182, 239, 73, .2);
+    height: 75px;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    font-weight: 400;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.donation-box{
+    display: flex;
+    gap: 0px;
+}
+
+.donation-box label{
+    color: white;
+    background-color: #424242;
+}
+
+.donation-box input{
+    border: none;
+    padding: 15px;
+    font-size: 14px;
+    height: 22px;
+}
+
+.don-lab1, .don-lab2{
+    display: flex;
+    align-items: center;
+    padding: 0px 11px;
+    height: 52px;
+}
+
+.don-lab1{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 12px;
+    width: 45px;
+}
+
+.don-lab2{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;  
+    width: 25px; 
+    font-size: 18px;
+}
+
+.donation-buttons{
+    width: 1110px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.donation-buttons button{
+    margin: 0px;
+    font-size: 14px;
+    height: 52px;
+    padding: 16px 32px;
+    border-radius: 10px;
+    width: auto;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: 540;
+    cursor: pointer;
+    transition: all 0.2s;
+    transition-timing-function: all ease-in-out;
+}
+
+.donation-buttons button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.07);
+}
+
+.donate-btn{
+    background-color: rgb(141, 198, 63) !important;
+    color: white !important;
+    border-radius: 5px !important; 
+}
+
+.banner img{
+    height: 560px;
+    width: 1500px;
+    margin-bottom: 20px;
+}
+
+.doings{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.doings h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.doing-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.doing-cards div{
+    padding: 20px;
+    background-color: rgba(182, 239, 73, .2);
+    height: 110px;
+    width: 190px;
+    border-radius: 10px;
+    transition: transform 0.15s;
+}
+
+.doing-cards div:hover{
+transform: scale(1.1);
+}
+
+.doing-cards div img{
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    display: block;
+}
+
+.doing-cards div label{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 520;
+    margin-top: 10px;
+}
+
+.donate-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.donate-card {
+    position: relative;
+    height: 300px;
+    width: 470px;
+    cursor: pointer;    
+    transition: transform 0.15s;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.donate-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); 
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.over-text {
+    position: absolute;
+    transform: translate(2.5%, -130%);
+    color: white;
+    z-index: 2;
+    font-size: 16px;
+}
+
+.over-text label {
+    font-weight: 600;
+}
+
+button {
+    background-color: rgb(141, 198, 63);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    width: 445px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.donate-card:hover {
+    transform: scale(1.03);
+}
+
+.projects{
+    height: 610px;
+    display: flex;
+}
+
+.project-img{
+    position: relative;
+    width: 780px;
+    height: 575px;
+    margin-right: 20px;
+    border-top-left-radius: 60px;
+    overflow: hidden;
+}
+
+.proj-image{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 60px;
+    object-fit: cover;
+    
+}
+
+.proj-overlay-text, .proj-overlay1, .proj-overlay2, .proj-overlay3{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    z-index: 1;
+}
+
+.proj-overlay-text{
+    top: 0;
+    left: 0;
+    background-color: rgb(141, 198, 63);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proj-overlay-text div{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    word-spacing: -1px;
+    width: 270px;
+}
+
+.proj-overlay1{
+    top: 0;
+    left: 50%;
+    border: 1px solid white;
+}
+
+.proj-overlay2{
+    top: 50%;
+    left: 0;
+    border: 1px solid white;
+}
+
+.proj-overlay3{
+    top: 50%;
+    left: 50%;
+    border: 1px solid white;
+}
+
+.project-text{
+    width: 51%;
+}
+
+.project-text h2{
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.proj-column{
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    height: 50px;
+    width: 35px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj-column-image{
+    height: 30px;
+    width: 25px;
+    object-fit: contain;
+}
+
+.proj-detail{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.proj-details-text h5{
+    margin: 0px;
+    color:  rgb(13, 109, 183);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.proj-details-text p{
+    width: 720px;
+    margin: 0px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.proj-details-text{
+    margin-left: 20px;
+}
+
+.services-counter{
+    position: relative;
+    height: 445px;
+    width: 1500px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color:  rgb(13, 109, 183);
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.services-counter::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('Images/background-pattern.png');
+    opacity: 0.2;
+    background-size: cover;
+}
+
+.services-container{
+    justify-content: space-between;
+    margin: 0 10%;
+    width: 80%;
+    height: 200px;
+    display: flex;
+}
+
+.service-img{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+.service-text{
+    text-align: center;
+    width: 120px;
+    color: white;
+}
+
+.service-text h2{
+    margin: 0px;
+    font-size: 30px;
+}
+
+.service-text label{
+    font-size: 14px;
+}
+
+.media-section{
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    height: 365px;  
+}
+
+.media-card{
+    width: 360px;
+    height: 340px;
+}
+
+.media-play {
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.media-play::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.start{
+    position: absolute;
+    transform: translate(325%, -260%);
+    z-index: 2;
+}
+
+.video-play{
+    height: 50px;
+    width: 50px;
+}
+
+.media-play-image {
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+
+.media-description{
+    margin-top: 10px;
+    width: 100%;
+    height: 80px;
+}
+
+.media-description span{
+    font-size: 12px;
+}
+
+.media-description h5{
+    margin: 0px;
+    font-size: 16px;
+}
+
+.news-heading, .media-heading{
+    display: flex;
+    justify-content: center;
+}
+
+.news-heading h2, .media-heading h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.news-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.news-container{
+    width: 355px;
+    background-color:  rgb(238, 238, 238);
+    border-radius: 12px;
+}
+
+.news-img{
+    width: 100%;
+    height: 220px;
+    border-radius: 12px;
+}
+
+.news-img-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.news-text{
+    width: 90%;
+    padding: 20px;
+}
+
+.news-text-button{
+    margin: 0px;
+    width: auto;
+    font-size: 10px;
+    padding: 6px 12px;
+}
+
+.news-text h5{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.arrow-button{
+    background-color: white;
+    padding: 0px;
+    width: 58px;
+    height: 38px;
+    transition: tramsform(0.15s);
+}
+
+.arrow-button-image{
+    height: 18px;
+    width: 18px;
+}
+
+.arrow-button:hover{
+    transform: scale3d(1.2, 1.1, 1.1);
+}
+
+.guide-section{
+    position: relative;
+    height: 270px;
+    width: 1500px;
+    background-image: url('Images/background-pattern2.png');
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color:  rgb(13, 109, 183);
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+.guide-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.guide-heading{
+    display: block;
+    color: white;
+}
+
+.guide-heading h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.guide-items input{
+    font-size: 14px;
+    width: 655px;
+    height: 20px;
+    padding: 15px;
+    background: transparent;
+    border-color: white;
+    color: white;
+}
+
+.guide-items button{
+    font-size: 14px;
+    font-weight: 600;
+    width: 685px;
+    height: 50px;
+    color: black;
+    background-color: white;
+}
+
+.footer-section {
+    position: relative;
+    height: 580px;
+    width: 1500px;
+    background-color: rgb(66, 66, 66);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-section::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('Images/background-pattern.png');
+    opacity: 0.2;
+    background-size: cover;
+}
+
+.footer1 {
+    display: flex;
+    height: 200px;
+    width: 1420px;
+}
+
+.footer-images {
+    width: 470px;
+    height: 200px;
+}
+
+.footer-main-img{
+    width: 300px;
+    height: 81px;
+    margin-bottom: 20px;
+}
+
+.footer-icons {
+    margin-left: 15px;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    gap: 10px;
+}
+
+.footer-icon {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+.footer-about, .footer-explore, .footer-contact {
+    color: white;
+    width: 250px;
+}
+
+.footer-about li, .footer-explore li , .footer-contact li{
+    list-style: none;
+    margin-bottom: 20px;  
+    font-size: 14px; 
+}
+
+.footer-about h4, .footer-explore h4, .footer-contact h4 {
+    margin-bottom: 20px;
+}
+
+.footer-contact span {
+    font-size: 12px;
+}
+
+.separater{
+    margin: 20px 0px;
+    width: 1420px;
+    height: 1px;
+    background-color: gray;
+}
+
+.footer2-img{
+    width: 200px;
+}
+
+.footer3{
+    color: white;
+}
+
+.footer4{
+    color: white;
+}
